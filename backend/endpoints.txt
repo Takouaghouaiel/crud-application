@@ -1,0 +1,13 @@
+GET : http://127.0.0.1:3000/contact/lister : pour lister tout les contacts 
+GET : http://127.0.0.1:3000/contact/id/supprimer : pour supprimer un contact 
+
+POST : http://127.0.0.1:3000/contact/ajouter : pour ajouter un contact 
+ {
+    "nom":"toutou",
+   "numero":"28011666"
+ }
+POST : http://127.0.0.1:3000/contact/id/modifier : pour modifier un contact 
+{
+    "nom":"toutou2",
+   "numero":"28011666"
+ }
